@@ -17,6 +17,7 @@ public class Main {
 	    System.out.println("Üçgenin Çevresi :"+math.perimeterOfTriangle(5, 4, 2));	
 	    System.out.println(math.factoriyel(5));
 	    System.out.println(math.sumOfSmallNumbers(6));
+	//   System.out.println(math.theSumOfTheNumbersBetween(3, 6));
 	}
 
 }

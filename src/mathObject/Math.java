@@ -75,18 +75,19 @@ public class Math {
         }
         return result;
     }
-    public int sumOfBetweenNumber(int a,int b) {
+    //theSumOfTheNumbersBetween
+    public int theSumOfNumbersBetween(int a,int b) {
     	int result=0;
     	for(int i=a+1;i<b;i++) {
-    		result+=i;
+    		result=result+=i;
     	}
         return result;
     }
-}
-
-
-
-	
-	
-	
-
+    //pi*r*r*r*4/3 volumeOfsphere(3)
+    public double volumeOfShpere(double r) {
+    	return this.getpi()*r*r;
+    }
+        	
+    }  
+      
+        
